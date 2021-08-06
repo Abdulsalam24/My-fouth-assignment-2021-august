@@ -401,7 +401,9 @@ nav #menu-slide ul li:not(:last-child){
     font-weight: 700;
 }
 
+
 .plan-grid-item1 ul li a{
+    color: #7A7A7A;
     font-size: 1em;
     line-height: 35px;
 
@@ -524,11 +526,12 @@ nav #menu-slide ul li:not(:last-child){
 .video-project-item-absolute{
     position: absolute;
     background-color: #FF7362;
-    padding: 20px 0;
-    width: 50%;
+    padding: 10px 0;
+    width: 160px;
     top: 0;
-    right: 230px;
-    border-top-left-radius: 40px;
+    left: 9px;
+    font-size: 0.7em;
+    border-top-left-radius: 30px;
     border-bottom-right-radius: 70px;
 }
 
@@ -762,6 +765,15 @@ hr{
         margin: auto;
     }
 
+    .video-project-item-absolute{
+        padding: 10px 0;
+        left: 13px;
+        font-size: 0.7em;
+        border-top-left-radius: 30px;
+        border-bottom-right-radius: 70px;
+    }
+
+    
     .map{
         width: 75%;
         margin: auto;
@@ -1359,7 +1371,7 @@ hr{
         font-size: 0.6em;
         width: 50%;
         top: 0;
-        right: 153px;
+        left: 8px;
         border-top-left-radius: 33px;
         border-bottom-right-radius: 70px;
     }
